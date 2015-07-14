@@ -15,6 +15,6 @@ $('#main_BT img').slideDown();
 
 $('#main_BT').click(function(){
 
-  
+  $('body').addClass('body_snow');
 
 });
