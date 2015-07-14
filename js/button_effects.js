@@ -17,4 +17,6 @@ $('#main_BT').click(function(){
 
   $('body').addClass('body_snow');
 
+  $('#arrow-img').fadeOut(1000);
+
 });

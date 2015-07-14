@@ -3,6 +3,7 @@ body{
 margin-top: 0px;
 text-align: center;
 background-color: #0E83CD;
+transition: background 2s;
 
 }
 
@@ -97,5 +98,5 @@ margin-top: 10%;
 
 .body_snow{
 
-  
+  background-color: #ffffff;
 }
