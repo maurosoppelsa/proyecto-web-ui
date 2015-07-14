@@ -12,3 +12,9 @@ $('#main_BT img').slideDown();
   $('#main_BT img').slideUp();
 
 });
+
+$('#main_BT').click(function(){
+
+  
+
+});
