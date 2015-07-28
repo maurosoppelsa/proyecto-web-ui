@@ -1,0 +1,72 @@
+#foot1{
+  background: rgba(0, 0, 0, 0) url("../images/foot_vector3.jpg") repeat scroll 456px 198px;
+  width: 162px;
+  height: auto;
+  position: absolute;
+  left: 250px;
+  top: 400px;
+}
+#foot2{
+  background: rgba(0, 0, 0, 0) url("../images/foot_vector3.jpg") repeat scroll 286px 179px;
+  width: 162px;
+  height: auto;
+  position: absolute;
+  left: 430px;
+  top: 400px;
+}
+#foot3{
+  background: rgba(0, 0, 0, 0) url("../images/foot_vector3.jpg") repeat scroll 258px 262px;
+  width: 87px;
+  height: 77px;
+  position: absolute;
+  left: 450px;
+  top: 307px;
+}
+#foot4{
+  background: rgba(0, 0, 0, 0) url("../images/foot_vector3.jpg") repeat scroll 149px 272px;
+  width: 87px;
+  height: auto;
+  position: absolute;
+  left: 568px;
+  top: 300px;
+}
+#foot5{
+  background: rgba(0, 0, 0, 0) url("../images/foot_vector3.jpg") repeat scroll 205px 315px;
+  width: 48px;
+  height: 64px;
+  position: absolute;
+  left: 510px;
+  top: 245px;
+}
+#foot6{
+  background: rgba(0, 0, 0, 0) url("../images/foot_vector3.jpg") repeat scroll 178px 359px;
+  width: 78px;
+  height: 62px;
+  position: absolute;
+  left: 559px;
+  top: 211px;
+}
+#foot7{
+  background: rgba(0, 0, 0, 0) url("../images/foot_vector3.jpg") repeat scroll 281px 341px;
+  width: 83px;
+  height: 39px;
+  position: absolute;
+  left: 438px;
+  top: 211px;
+}
+#foot8{
+  background: rgba(0, 0, 0, 0) url("../images/foot_vector3.jpg") repeat scroll 303px 376px;
+  width: 82px;
+  height: 39px;
+  position: absolute;
+  left: 430px;
+  top: 178px;
+}
+
+.feet{
+  display: none;
+}
+
+#box_feet{
+
+}

@@ -3,6 +3,7 @@ body{
 margin-top: 0px;
 text-align: center;
 background-color: #0E83CD;
+transition: background 2s;
 
 }
 
@@ -14,7 +15,7 @@ border-radius: 10px;
 color: #ffffff;
 font-size: 20px;
 /*padding: 12px;*/
-margin-top: 20%;
+margin-top: 15%;
 text-transform: uppercase;
 line-height: 2.5;
 font-family: Verdana;
@@ -46,4 +47,55 @@ display: none;
 
 display: inline-block;
 
+}
+
+.css-typing
+{
+
+    width: 340px;
+    white-space:nowrap;
+    overflow:hidden;
+    -webkit-animation: type 2s steps(50, end);
+    animation: type 2s steps(50, end);
+    color: #ffffff;
+    font-weight: bold;
+    margin-left: 10%;
+    font-family: Georgia;
+
+
+}
+
+@keyframes type{
+    from { width: 0; }
+
+}
+
+@-webkit-keyframes type{
+    from { width: 0; }
+}
+
+#box-container{
+
+width: 400px;
+display: inline-block;
+margin-left: auto;
+margin-right: auto;
+margin-top: 10%;
+
+}
+
+.child-container{
+
+}
+
+#arrow-img{
+  position: absolute;
+  margin-left: 2%;
+  display: none;
+  margin-top: 1%;
+}
+
+.body_snow{
+
+  background-color: #ffffff;
 }
