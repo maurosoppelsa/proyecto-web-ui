@@ -19,4 +19,6 @@ $('#main_BT').click(function(){
 
   $('#arrow-img').fadeOut(1000);
 
+  $(this).fadeOut(1000);
+
 });
