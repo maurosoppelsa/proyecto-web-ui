@@ -3,64 +3,65 @@
   width: 162px;
   height: auto;
   position: absolute;
-  left: 250px;
-  top: 400px;
+  left:42%;
+  top: 480px;
 }
 #foot2{
   background: rgba(0, 0, 0, 0) url("../images/foot_vector3.jpg") repeat scroll 286px 179px;
   width: 162px;
   height: auto;
   position: absolute;
-  left: 430px;
-  top: 400px;
+  left: 54%;
+  top: 480px;
 }
 #foot3{
   background: rgba(0, 0, 0, 0) url("../images/foot_vector3.jpg") repeat scroll 258px 262px;
   width: 87px;
   height: 77px;
   position: absolute;
-  left: 450px;
-  top: 307px;
+  left: 54%;
+  top: 387px;
 }
 #foot4{
   background: rgba(0, 0, 0, 0) url("../images/foot_vector3.jpg") repeat scroll 149px 272px;
   width: 87px;
   height: auto;
   position: absolute;
-  left: 568px;
-  top: 300px;
+  left: 62%;
+  top: 380px;
 }
 #foot5{
   background: rgba(0, 0, 0, 0) url("../images/foot_vector3.jpg") repeat scroll 205px 315px;
   width: 48px;
   height: 64px;
   position: absolute;
-  left: 510px;
-  top: 245px;
+  left: 57%;
+  top: 325px;
 }
 #foot6{
-  background: rgba(0, 0, 0, 0) url("../images/foot_vector3.jpg") repeat scroll 178px 359px;
+  background: rgba(0, 0, 0, 0) url("../images/foot6.png") repeat scroll 187px 333px;
   width: 78px;
-  height: 62px;
+  height: 42px;
   position: absolute;
-  left: 559px;
-  top: 211px;
+  left: 59%;
+  top: 291px;
 }
 #foot7{
   background: rgba(0, 0, 0, 0) url("../images/foot_vector3.jpg") repeat scroll 281px 341px;
   width: 83px;
   height: 39px;
   position: absolute;
-  left: 438px;
-  top: 211px;
+  left: 53%;
+  top: 291px;
 }
 #foot8{
   background: rgba(0, 0, 0, 0) url("../images/foot_vector3.jpg") repeat scroll 303px 376px;
   width: 82px;
   height: 39px;
   position: absolute;
-  left: 430px;
-  top: 178px;
+  left: 52%;
+  top: 258px;
+  z-index: -1;
 }
 
 .feet{

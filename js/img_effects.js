@@ -1,1 +1,1 @@
-$('#arrow-img').delay(2500).fadeIn(800);
+$('#arrow-img').delay(2000).fadeIn(800);
