@@ -21,7 +21,10 @@ $('#main_BT').click(function(){
 
   $(this).fadeOut(1000);
 
-  move_your_feet()
+  move_your_feet();
+  horizon();
+  sound_track();
+
 
 });
 
@@ -29,49 +32,69 @@ function move_your_feet(){
 
     setTimeout(function () {
 
-      $('#foot1').fadeIn();
+      $('#foot1').fadeIn("fast");
 
     }, 2000);
 
     setTimeout(function () {
 
-      $('#foot2').fadeIn();
+      $('#foot2').fadeIn("fast");
 
     }, 3000);
 
     setTimeout(function () {
 
-      $('#foot3').fadeIn();
+      $('#foot3').fadeIn("fast");
 
     }, 4000);
 
     setTimeout(function () {
 
-      $('#foot4').fadeIn();
+      $('#foot4').fadeIn("fast");
 
     }, 5000);
 
     setTimeout(function () {
 
-      $('#foot5').fadeIn();
+      $('#foot5').fadeIn("fast");
 
     }, 6000);
 
     setTimeout(function () {
 
-      $('#foot6').fadeIn();
+      $('#foot6').fadeIn("fast");
 
     }, 7000);
 
     setTimeout(function () {
 
-      $('#foot7').fadeIn();
+      $('#foot7').fadeIn("fast");
 
     }, 8000);
 
     setTimeout(function () {
 
-      $('#foot8').fadeIn();
+      $('#foot8').fadeIn("fast");
 
     }, 9000);
+}
+
+function horizon(){
+
+setTimeout(function () {
+
+  $('#horizon_line').addClass('horizon');
+
+}, 9000);
+
+}
+
+function sound_track(){
+
+setTimeout(function () {
+
+$('#the_audio').append('<audio id="audio_song" controls autoplay><source src="sounds/Faust.mp3" type="audio/mpeg"></audio>');
+
+}, 1000);
+
 }
