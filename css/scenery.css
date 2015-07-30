@@ -153,3 +153,14 @@ animation-name: the_piramid;
   margin-top: -8.4%;
   display: none;
 }
+#sun{
+  display: none;
+  position: absolute;
+  margin-left: 75%;
+  margin-top: -17%;
+}
+#shadow{
+  margin-top: -28px;
+  margin-left: -13%;
+  display: none;
+}

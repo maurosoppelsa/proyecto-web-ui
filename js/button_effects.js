@@ -98,6 +98,19 @@ $('#the_audio').append('<audio id="audio_song" controls autoplay><source src="so
 
 }, 1000);
 
+setTimeout(function () {
+
+var vol = 0.20;
+
+if(vol>0){
+
+  vol -= 0.05;
+}
+
+$('#audio_song').setVoume(vol);
+
+}, 13000);
+
 }
 
 function piramids(){
@@ -116,6 +129,8 @@ function the_palm(){
 setTimeout(function () {
 
   $('#palm').slideDown('fast');
+  $('#sun').fadeIn(5000);
+  $('#shadow').fadeIn(5000);
 
 }, 12000);
 
