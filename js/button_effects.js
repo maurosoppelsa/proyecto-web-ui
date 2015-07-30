@@ -24,7 +24,8 @@ $('#main_BT').click(function(){
   move_your_feet();
   horizon();
   sound_track();
-
+  piramids();
+  the_palm();
 
 });
 
@@ -96,5 +97,26 @@ setTimeout(function () {
 $('#the_audio').append('<audio id="audio_song" controls autoplay><source src="sounds/Faust.mp3" type="audio/mpeg"></audio>');
 
 }, 1000);
+
+}
+
+function piramids(){
+
+  setTimeout(function () {
+
+  $('#piramid1').append('<div id="pir_ln1"></div><div id="pir_ln2"></div>');
+  $('#piramid2').append('<div id="pir_ln3"></div><div id="pir_ln4"></div>');
+
+}, 10000);
+
+}
+
+function the_palm(){
+
+setTimeout(function () {
+
+  $('#palm').slideDown('fast');
+
+}, 12000);
 
 }
